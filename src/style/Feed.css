@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+
+.flexContainer{
+    background-color: #333333;
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+.btnExit,
+.btnProfile,
+.btnTweets{
+    margin: 6vh 3vw;
+    border: none;
+    border-radius: 15px;
+    background-color: #333333;
+    color: #E6E6E6;
+    font-weight: bold;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 43px;
+}
+
+.btnTweets{
+    margin: 6vh 3vw;
+    border: none;
+    border-radius: 15px;
+    background-color: #333333;
+    color: #E6E6E6;
+    font-weight: bold;
+}
+.btnTweets:hover {
+	background-color: rgba(228, 235, 235, 0.267);
+}
+
+.btnTweets{
+    margin:10px 10px 0 15px;
+}
+
+.btnExit img{
+    width: 25px;
+}
+
+.btnTweets img{
+    width: 20px;
+}
+.btnProfile img{
+    width: 20px;
+    margin-right: 14px;
+}
+
+.FeedArea{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 100px auto;
+}
+.textFeed{
+    background-color:  #6666;
+    color: #E6E6E6;
+    border:none;
+    border-radius: 5px;
+}
+.profileData{
+ display: flex;
+}
+
+.postUser{
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.postText{
+    margin: 10px 10px 0 56px;
+}
+
+.btnPost{
+    margin: 20px auto;
+    border: none;
+    background-color:#6699cc;
+    color: #E6E6E6;
+    font-weight: bold;
+    border-radius: 15px;
+    width: 77px;
+    height: 23px;
+}
+.btnPost:hover {
+	background-color: rgb(151, 158, 158);
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #E6E6E6;
+}
+
+.logoCrow{
+    margin-top: 15vh;
+    width: 150px;
+    height: 140px;
+    padding: 40px;
+}
+
+.textComent{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    width: 32vw;
+    background-color:  #6666;
+    color: #E6E6E6;
+    border:none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.dataComent{
+    margin-top: 4px;
+}
+
+.comentFix{
+    border-top: 1px solid #6666;
+    margin-top: 16px;
+    width: 32vw;
+}
+ .dataName{
+    margin-top: 6px;
+    font-weight: bold;
+    margin-top: 20px;
+ }
+
+ 
